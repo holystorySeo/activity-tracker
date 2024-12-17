@@ -9,6 +9,7 @@ function App() {
   const [latestTransaction, setLatestTransaction] = useState(null);
   const [showNotification, setShowNotification] = useState(false);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const safeMockData = Array.isArray(mockData) ? mockData : []; // mockData 안전 처리
 
   useEffect(() => {
@@ -87,6 +88,10 @@ const styles = {
     overflowY: "auto",
     padding: "20px",
     paddingBottom: "60px",
+
+    /* 스크롤바 숨기기 */
+    scrollbarWidth: "none", // Firefox
+    msOverflowStyle: "none", // IE/Edge
   },
 };
 
