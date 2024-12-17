@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 🚀 Activity Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React 기반의 **활동 추적 애플리케이션**입니다.  
+그래프와 차트를 활용하여 데이터를 시각화합니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📋 프로젝트 설정 및 실행 방법
 
-### `npm start`
+### 1. 필수 요구사항
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+프로젝트를 실행하기 전에 다음 도구들이 설치되어 있어야 합니다:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js (LTS 버전)](https://nodejs.org/) (v14 이상 권장)
+- [npm](https://www.npmjs.com/) 또는 [yarn](https://yarnpkg.com/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. 프로젝트 복제
 
-### `npm run build`
+GitHub 원격 저장소에서 프로젝트를 복제합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/username/activity-tracker.git
+cd activity-tracker
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. 의존성 설치
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm 또는 yarn 명령어를 사용하여 프로젝트에 필요한 패키지를 설치합니다.
 
-### `npm run eject`
+```
+npm install
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. 개발 서버 실행
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+개발 서버를 실행하고 프로젝트를 로컬 환경에서 확인할 수 있습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+yarn start
+```
+브라우저에서 http://localhost:3000 으로 접속하면 애플리케이션이 실행됩니다.
